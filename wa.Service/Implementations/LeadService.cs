@@ -33,6 +33,7 @@ namespace wa.Service.Implementations
             }
             catch
             {
+                //обрабатываем ошибку, записываем в логи
                 return null;
             }
         }
@@ -50,6 +51,7 @@ namespace wa.Service.Implementations
             }
             catch
             {
+                //обрабатываем ошибку, записываем в логи
                 return lead;
             }
         }
